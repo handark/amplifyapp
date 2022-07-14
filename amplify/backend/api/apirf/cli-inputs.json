@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/invoices": {
+      "name": "/invoices",
+      "lambdaFunction": "invoicesLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "resourceName": "invoices",
+  "tableName": "invoices",
+  "partitionKey": {
+    "fieldName": "number",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "senderName",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

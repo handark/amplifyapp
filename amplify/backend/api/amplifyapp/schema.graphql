@@ -1,0 +1,11 @@
+type InvoiceModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  number: String!
+  date: AWSDate!
+  taxes: Float!
+  total: Float!
+  expirationDate: AWSDate!
+  senderNif: String!
+  senderName: String!
+  senderEmail: AWSEmail
+}

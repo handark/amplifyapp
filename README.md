@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## AWS Amplify
+
+Para recuperar cambios en el backend:
+amplify pull
+
+[URL de Amplify Studio](https://us-east-1.admin.amplifyapp.com/admin/dm87ac68ua1g4/staging/home)
+
+### Api Endpoint
+
+https://g7sglbewc5.execute-api.us-east-1.amazonaws.com/staging
+
 ## Available Scripts
 
 In the project directory, you can run:
